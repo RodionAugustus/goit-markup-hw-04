@@ -146,14 +146,24 @@ ul {
     text-decoration: none;
 }
 
+.header-contact:hover {
+    color: var(--brand-color);
+    stroke: var(--brand-color);
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
 
 /* offer-section */
 
 .offer {
+    background-image: url("/images/bg-image.png");
     text-align: center;
-    background-color: #2F303A;
     color: #fff;
     padding: 200px 237px;
+    background-size: cover;
 }
 
 .offer-text {
@@ -181,12 +191,22 @@ ul {
     line-height: 30px;
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 /* about-us section */
 
 .about-us {
     padding-bottom: 0px;
+}
+
+.about-us-icon-box {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
 }
 
 .about-us-text {
@@ -262,6 +282,28 @@ ul {
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.team-member ul {
+    list-style: none;
+    margin-right: 32px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-top: 16px;
+}
+
+.socials-icon {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    padding: 12px;
+}
+.socials-icon:hover {
+    background-color: var(--brand-color);
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
 .team-member-name {
     font-size: 16px;
     font-weight: 500;
@@ -286,6 +328,10 @@ ul {
     color: #fff;
 }
 
+.address-wrap {
+    display: inline-block;
+}
+
 .address {
     padding: 0;
     margin-top: 20px;
@@ -293,6 +339,7 @@ ul {
     color: #fff;
     list-style: none;
     font-style: normal;
+    margin-right: 70px;
 }
 
 .address-line {
@@ -311,6 +358,30 @@ ul {
 
 .street-address {
     color: #FFFFFF;
+}
+
+.footer-media {
+    display: inline-block;
+}
+
+.footer-media-list {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-media-list li {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.join-us-title {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
 }
 
 /* Portfolio */
@@ -394,3 +465,24 @@ ul {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+
+/* Icons */
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.client-card {
+    border: 1px solid #AFB1B8;
+    margin-right: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.client-link:hover {
+    cursor: pointer;
+    color: var(--brand-color);
+}
+
