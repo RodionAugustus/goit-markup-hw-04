@@ -161,10 +161,11 @@ ul {
 .offer {
     background-image: url("./../images/bg-image.png");
     background-repeat: no-repeat;
+    background-position: 50% 50%;
     text-align: center;
     color: #fff;
     padding: 200px;
-    background-size: cover;
+    background-size: 1600px auto;
 }
 
 .offer-text {
