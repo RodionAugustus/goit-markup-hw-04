@@ -159,7 +159,7 @@ ul {
 /* offer-section */
 
 .offer {
-    background-image: url("/images/bg-image.png");
+    background-image: url("./images/bg-image.png");
     text-align: center;
     color: #fff;
     padding: 200px 237px;
